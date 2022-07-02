@@ -2,10 +2,10 @@ var currentNumberWrapperUp = document.getElementById('increment');
 var currentNumberWrapperDown = document.getElementById('decrement');
 var currentNumber = 0;
 
-currentNumberWrapperUp.addEventListener("click", mais);
+currentNumberWrapperUp.addEventListener("click", increment);
 currentNumberWrapperDown.addEventListener("click", decrement);
 
-function mais(){
+function increment(){
 
     currentNumber += 1;
     document.getElementById("currentNumber").innerHTML = currentNumber;
